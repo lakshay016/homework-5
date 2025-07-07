@@ -52,7 +52,6 @@ public class MainWithDB {
         final LoggedInViewModel loggedInViewModel = new LoggedInViewModel();
         final SignupViewModel signupViewModel = new SignupViewModel();
 
-
         final DBUserDataAccessObject userDataAccessObject = new DBUserDataAccessObject(new CommonUserFactory());
 
         final SignupView signupView = SignupUseCaseFactory.create(viewManagerModel, loginViewModel,
